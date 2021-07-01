@@ -1,9 +1,3 @@
-
-# Usage
-
-add by lalawue
-
-```lua
 local sqlite3 = require("ffi-sqlite3")
 
 local conn = sqlite3.open('my_database.sqlite3')
@@ -21,4 +15,3 @@ end
 stmt:finalize()
 
 conn:close()
-```
